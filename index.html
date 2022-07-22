@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+    <head>
+        <meta charset = 'UTF-8'>
+        <link rel = 'stylesheet' href = './index.css'>
+        <title>Sign-Up!</title>
+    </head>
+    <body>
+        <div id = 'sign-up-page'>
+            <div id = 'background'>
+
+                <div id = 'benefits'>
+                    [n3]
+                </div>
+            </div>
+
+            <div id = 'sign-up-forms'>
+                <div id = 'form-entry'>
+                    <div id = 'form-intro'>
+                        <h1>This is a Mock-up Sign up page!</h1>
+                        <h3>Input will be sent to httpbin to help with reviewing data</h3>
+                    </div>
+                    
+                    <form action="http://httpbin.org/post" method="post">
+                        <h2>Sign up now!</h2>
+                        <div class = 'form-section'>
+                            <label for="fname"> First Name: <br>
+                                <input type="text" id="lname" name="fname">
+                            </label>
+                            <label for="lname"> Last Name: <br>
+                                <input type="text" id="fname" name="lname">
+                             </label>  
+                        </div>
+                        <div class = 'form-section'>
+                            <label for="email"> Email Address: <br>
+                                <input type="email" id = "email" name="email">
+                            </label>
+                            <label for="phone"> Contact #: <br>
+                                <input type="tel" phone" name="phone">
+                            </label>
+                        </div>
+                        <div class = 'form-section'>
+                            <label for="password"> Password: <br>
+                                <input type="password" id = "password" name="password">
+                            </label>
+                            <label for="cpassword"> Confirm Password: <br>
+                                <input type="password" id = "cpassword" name="cpassword">
+                            </label>
+                        </div>
+                        <button type="submit" id = 'submit-btn'>Submit</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </body>
+</html>

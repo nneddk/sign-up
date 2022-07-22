@@ -1,0 +1,76 @@
+*{
+
+    margin: 0px;
+    font-family: Roboto, sans-serif;
+}
+body{
+    background-image: linear-gradient(red, purple);
+    height:100vh;
+}
+#sign-up-page{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+#background{
+    background-color: transparent;
+    width:30vw;
+    z-index: -1;
+}
+#sign-up-forms{
+    background-color: black;
+    color:whitesmoke;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#form-entry{
+    display:flex;
+    flex-direction: column;
+    width: 90%;
+    height: 70%;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    font-size: 14px;
+}
+.form-section{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    gap: 24px;
+}
+input{
+    background-color: rgb(255, 255, 255, 0.5);
+    color: white;
+    width: 400px;
+    height: 20px;
+    border-radius: 5px;
+}
+#submit-btn{
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 9999px;
+}
+
+#benefits{
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100px;
+    color:whitesmoke;
+    font-size: 80px;
+}
+#background{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
